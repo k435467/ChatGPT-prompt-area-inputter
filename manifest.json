@@ -5,7 +5,7 @@
   "permissions": ["activeTab", "scripting", "storage"],
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
+      "matches": ["https://chat.openai.com/"],
       "js": ["content.js"]
     }
   ],
